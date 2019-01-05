@@ -2,7 +2,7 @@
 
 function _prompt_whoami -d "Display user@host if on a SSH session"
   if set -q SSH_TTY
-    printf '(%s@%s)' (whoami) (hostname)
+    printf '(%s@%s) ' (whoami) (hostname)
   end
 end
 
@@ -33,10 +33,10 @@ function fish_prompt
   printf 'λ '
 
   set_color cyan
-  printf '%s ' (_prompt_whoami)
+  printf '%s' (_prompt_whoami)
 
   set_color blue
-  printf '{ %s%s }\n' (prompt_pwd) (_git_display)
+  printf '{ %s%s }\n' (basename (pwd)) (_git_display)
 
   set_color red
   printf '» '
