@@ -36,7 +36,7 @@ function fish_prompt
   printf '%s' (_prompt_whoami)
 
   set_color blue
-  printf '{ %s%s }\n' (basename (pwd)) (_git_display)
+  printf '{ %s%s }\n' (basename (pwd | sed "s|^$HOME|~|")) (_git_display)
 
   set_color red
   printf '» '
