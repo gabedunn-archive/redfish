@@ -1,3 +1,3 @@
 function fish_title
-  # Customize terminal window title
+  printf '%s@%s: %s' (whoami) (hostname) (pwd | sed "s|^$HOME|~|")
 end
