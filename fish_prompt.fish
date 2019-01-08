@@ -31,6 +31,8 @@ function fish_prompt
   set_color -o red
   printf 'λ '
 
+  set_color normal
+
   set_color cyan
   printf '%s' (_prompt_whoami)
 
