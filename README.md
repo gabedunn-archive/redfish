@@ -25,7 +25,7 @@ $ omf install redfish
 ## Screenshot
 
 <p align="center">
-<img src="https://i.imgur.com/H9crBDc.png">
+<img src="https://i.imgur.com/H9crBDc.png" alt="Image in which I meant to exclude -rf to show the exit code of a failed command">
 </p>
 
 
