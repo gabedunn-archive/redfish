@@ -1,13 +1,9 @@
-<img src="https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg" align="left" width="144px" height="144px"/>
-
-#### redfish
+# redfish
 > A theme for [Oh My Fish][omf-link].
 
 [![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
 [![Fish Shell Version](https://img.shields.io/badge/fish-v2.2.0-007EC7.svg?style=flat-square)](https://fishshell.com)
 [![Oh My Fish Framework](https://img.shields.io/badge/Oh%20My%20Fish-Framework-007EC7.svg?style=flat-square)](https://www.github.com/oh-my-fish/oh-my-fish)
-
-<br/>
 
 
 ## Install
@@ -16,12 +12,15 @@
 $ omf install redfish
 ```
 
-
 ## Features
 
-* Lorem ipsum dolor sit amet.
-* Consectetur adipisicing elit.
-
+* Current Directory shown in prompt
+* Full path shown in right prompt
+* Git branch and status shown
+* Show exit status in right prompt
+* Show current time in right prompt
+* Set title to current prompt
+* More!
 
 ## Screenshot
 
@@ -32,12 +31,11 @@ $ omf install redfish
 
 # License
 
-[MIT][mit] © [{{USER}}][author] et [al][contributors]
+[MIT][mit] © [redxtech][author]
 
 
 [mit]:            https://opensource.org/licenses/MIT
-[author]:         https://github.com/{{USER}}
-[contributors]:   https://github.com/{{USER}}/theme-redfish/graphs/contributors
+[author]:         https://github.com/redxtech
 [omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
 
 [license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
