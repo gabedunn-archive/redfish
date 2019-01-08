@@ -10,18 +10,17 @@ function _git_branch_name -d "Return the git branch name"
   echo (command git symbolic-ref HEAD ^/dev/null | sed -e 's|^refs/heads/||')
 end
 
-function _is_git_dirty -d "Return whether the git repo is dirty"
-  echo (command git status -s --ignore-submodules=dirty ^/dev/null)
+function _git_dirty -d "Return '*' if the git repo is dirty"
+  set -l dirty (command git status -s --ignore-submodules=dirty)
+  if test -n "$dirty"
+    printf '*'
+  end
 end
 
 function _git_display -d "Display the git branch & status"
   if [ (_git_branch_name) ]
     set_color green
-    if [ (_is_git_dirty) ]
-      printf ':%s*' (_git_branch_name)
-    else
-      printf ':%s' (_git_branch_name)
-    end
+    printf ':%s%s' (_git_branch_name) (_git_dirty)
     set_color blue
   end
 end
