@@ -29,10 +29,9 @@ $ omf install redfish
 </p>
 
 
-# License
+## Author
 
-[MIT][mit] © [redxtech][author]
-
+**redfish** © [redxtech][author], Released under the [MIT][mit] License.
 
 [mit]:            https://opensource.org/licenses/MIT
 [author]:         https://github.com/redxtech
