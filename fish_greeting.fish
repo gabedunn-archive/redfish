@@ -1,3 +1,3 @@
 function fish_greeting
-  # Customize fish greeting message
+  # No current greeting for fish.
 end
