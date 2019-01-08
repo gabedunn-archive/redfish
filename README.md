@@ -25,7 +25,7 @@ $ omf install redfish
 ## Screenshot
 
 <p align="center">
-<img src="{{SCREENSHOT_URL}}">
+<img src="https://i.imgur.com/H9crBDc.png">
 </p>
 
 
