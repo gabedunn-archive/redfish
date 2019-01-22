@@ -14,12 +14,12 @@ $ omf install redfish
 
 ## Features
 
-* Current Directory shown in prompt
-* Full path shown in right prompt
-* Git branch and status shown
-* Show exit status in right prompt
-* Show current time in right prompt
-* Set title to current prompt
+* Current Directory shown in prompt.
+* Full path shown in right prompt.
+* Git branch and status shown.
+* Show exit status in right prompt.
+* Show current time in right prompt.
+* Set title to current prompt.
 * More!
 
 ## Screenshot
