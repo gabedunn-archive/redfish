@@ -1,4 +1,4 @@
-# redfish
+# [redfish][repo-link]
 > A theme for [Oh My Fish][omf-link].
 
 [![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
@@ -35,6 +35,7 @@ $ omf install redfish
 
 [mit]:            https://opensource.org/licenses/MIT
 [author]:         https://github.com/redxtech
-[omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
+[omf-link]:       https://github.com/oh-my-fish/oh-my-fish
+[repo-link]:      https://github.com/redxtech/redfish
 
 [license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
